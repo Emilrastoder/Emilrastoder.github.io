@@ -2,7 +2,7 @@
 
  
 
-    const images = ["france.webp", "telavv.webp"];
+    const images = ["france.webp", "132.webp"];
 let currentIndex = 0;
 
 function changeSlide(Siteinternet) {
@@ -33,3 +33,4 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         this.reset();
     }
 });
+
