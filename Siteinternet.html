@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Délice - Restaurant</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍽️ Le Délice</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        
+        <section id="accueil">
+            <h2>Bienvenue au Délice</h2>
+            <p>Un restaurant familial avec des plats faits maison, servis avec amour.</p>
+            <button onclick="showWelcome()">Cliquez pour une surprise</button>
+            <p id="welcomeMessage"></p>
+            <div id="slideshow">
+                <img id="slide" src="france.webp" alt="Image 1">
+              </div>
+        </section>
+
+    
+
+        <section id="menu">
+            <h2>Notre Menu</h2>
+            <ul>
+                <li>🍕 Pizza Margherita - 10€</li>
+                <li>🍝 Spaghetti Bolognaise - 12€</li>
+                <li>🥗 Salade César - 9€</li>
+                <li>🍰 Tiramisu maison - 6€</li>
+            </ul>
+        </section>
+
+      
+
+        <section id="apropos">
+            <h2>À propos</h2>
+            <p>Ouvert depuis 2010, Le Délice propose une cuisine simple, locale et délicieuse dans une ambiance chaleureuse.</p>
+        </section>
+
+
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" required><br><br>
+
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" required><br><br>
+
+                <label for="message">Message :</label><br>
+                <textarea id="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Le Délice – Tous droits réservés.</p>
+    </footer>
+
+    <script src="site.js"></script>
+
