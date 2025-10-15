@@ -1,0 +1,113 @@
+/* Reset basique */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B0B45; /* Bleu foncé PSG */
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+nav a button {
+    background-color: #DA291C; /* Rouge PSG */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav a button:hover {
+    background-color: #B22222;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #001233;
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 20px #DA291C;
+}
+
+#contact h2 {
+    color: #DA291C;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Form styles */
+form label {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #DA291C;
+    border-radius: 8px;
+    background-color: #0B0B45;
+    color: white;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #fff;
+    outline: none;
+}
+
+/* Bouton envoyer */
+form button[type="submit"] {
+    background-color: #DA291C;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #B22222;
+}
+
+/* Message de retour */
+#formMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #DA291C;
+}

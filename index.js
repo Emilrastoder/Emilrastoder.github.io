@@ -1,8 +1,5 @@
 
-
- 
-
-    const images = ["france.webp", "132.webp"];
+    const images = ["psg1.jpg", "psg2.jpg"];
 let currentIndex = 0;
 
 function changeSlide(Siteinternet) {
@@ -15,7 +12,7 @@ setInterval(changeSlide, 1500);
 
 
 function showWelcome() {
-    document.getElementById("welcomeMessage").textContent = "🍷 Bienvenue ! Profitez d'une boisson offerte ce week-end.";
+    document.getElementById("welcomeMessage").textContent = "5% de réduction sur tout nos produits avec le code 'BONNET' " ; 
 }
 
 
@@ -33,4 +30,3 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         this.reset();
     }
 });
-
